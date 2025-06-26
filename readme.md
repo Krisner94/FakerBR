@@ -11,7 +11,7 @@ Biblioteca Java para geração de dados falsos, válidos e realistas, com foco n
 <dependency>
   <groupId>br.com.faker</groupId>
   <artifactId>fakerbr</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.0-SNAPSHOT</version>
 </dependency>
 ```
 

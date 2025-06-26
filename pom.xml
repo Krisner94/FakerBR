@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>application</groupId>
-    <artifactId>FakerBR</artifactId>
+    <groupId>com.github.Krisner94</groupId>
+    <artifactId>faker-br</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <name>FakerBR</name>
@@ -30,6 +30,14 @@
             <version>1.18.38</version>
         </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/Krisner94/FakerBR</url>
+        </repository>
+    </distributionManagement>
 
     <build>
         <plugins>
